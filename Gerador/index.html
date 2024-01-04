@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,25 @@
     <title>Gerador de Senhas</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <img class="imgGerador" src="/Gerador/img/Placa Wifi Internet Clean Branca.png" alt=" gerador senhas wifi">
-    
+    <span class="container-input">
+        <span id="valor"> Tamanho </span> Caracteres </span>
+    <input id="inputGerador" class="inputGerador-cta" placeholder="Senhas" type="range" min="5" max="25"></input>
+    <button id="button" class="button-cta">Gerar senha</button>
+    </main>
+    <div id="container-password" class="container-password-hide"> 
+        <span class="title"> sua senha foi gerada :</span>
+        <span id="password" class="password-cta"> 123123123123 </span>
+        <span> click na senha para copiar ☝️ </span>
+
+
+        </div>
+
+
+
     <script src="Gerador/script.js"></script>
 </body>
+
 </html>
